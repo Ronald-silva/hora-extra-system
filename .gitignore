@@ -1,0 +1,43 @@
+# Dependências
+node_modules/
+
+# Arquivos de ambiente
+.env
+.env.local
+.env.*.local
+
+# Arquivos de log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Arquivos de sistema
+.DS_Store
+Thumbs.db
+
+# Arquivos de build
+/build
+/dist
+
+# Arquivos de configuração local do Firebase
+.firebaserc
+firebase-debug.log*
+
+# Arquivos de IDE/Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Arquivos temporários
+*.tmp
+*.temp
+
+# Arquivos de cache
+.cache/
+
+# Arquivos específicos do seu projeto que não devem ser versionados
+firebase-config.js
+
+# Outros arquivos/pastas específicos do seu projeto
+# Adicione aqui quaisquer outros arquivos ou pastas que você não quer versionar
